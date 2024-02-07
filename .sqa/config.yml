@@ -1,0 +1,42 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.0.0
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/stevenjgibbons/stateventphases:
+      branch: main
+      repo: https://github.com/stevenjgibbons/stateventphases
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/stevenjgibbons/stateventphases git:
+        commands:
+        - /usr/bin/env sh .sqa/script.freaky-vermilion-reindeer.sh
+        container: qc.acc_muzzy-orchid-greyhound
+  QC.Doc:
+    repos:
+      github.com/stevenjgibbons/stateventphases find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.frumpy-ochre-hyrax.sh
+        container: qc.doc_fuzzy-cerise-kudu
+      github.com/stevenjgibbons/stateventphases git:
+        commands:
+        - /usr/bin/env sh .sqa/script.cranky-cyan-oriole.sh
+        container: qc.doc_jumpy-orange-jackal
+  QC.Lic:
+    repos:
+      github.com/stevenjgibbons/stateventphases licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.nerdy-maroon-ostrich.sh
+        container: qc.lic_thirsty-platinum-tarsier
+  QC.Ver:
+    repos:
+      github.com/stevenjgibbons/stateventphases get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.nerdy-myrtle-llama.sh
+        container: qc.ver_muzzy-pink-collie
+timeout: 5400
