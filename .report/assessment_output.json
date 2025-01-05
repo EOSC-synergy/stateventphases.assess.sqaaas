@@ -1198,23 +1198,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "3yXjF1CKS7GotileQi3HWQ",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/3yXjF1CKS7GotileQi3HWQ",
-                "createdAt": "2025-01-05T18:01:10.790841959Z",
+                "entityId": "rn9H6gGgTO-YI2kpReGBFA",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/rn9H6gGgTO-YI2kpReGBFA",
+                "createdAt": "2025-01-05T21:05:52.278957590Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/3yXjF1CKS7GotileQi3HWQ/image",
+                "image": "https://api.eu.badgr.io/public/assertions/rn9H6gGgTO-YI2kpReGBFA/image",
                 "recipient": {
-                    "identity": "sha256$c0688f5b05dd4047a2ca67e65de4302f339a09168ed72a525afaa9fa2072eac6",
+                    "identity": "sha256$ed9dddc95f7df32f1defcb1d74abe762e94f32a3ad8b9f2743c3f498dfe4bd1b",
                     "hashed": true,
                     "type": "url",
-                    "salt": "wJzOVwLXRgQ5L83s",
+                    "salt": "Y3JgMRshh1WCDg4A",
                     "plaintextIdentity": "https://github.com/stevenjgibbons/stateventphases"
                 },
-                "issuedOn": "2025-01-05T18:01:10.790844302Z",
+                "issuedOn": "2025-01-05T21:05:52.278960297Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/stevenjgibbons/stateventphases (commit: 5d0f2cd3c73bb1aec4b3ff02c19ded6723ee7da6, branch/tag: main)",
                 "evidence": [
                     {
@@ -1232,7 +1232,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/3yXjF1CKS7GotileQi3HWQ"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/rn9H6gGgTO-YI2kpReGBFA"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1244,10 +1244,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-3yXjF1CKS7GotileQi3HWQ.png"
+                "imagePath": "uploads/badges/assertion-rn9H6gGgTO-YI2kpReGBFA.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/3yXjF1CKS7GotileQi3HWQ?identity__url=https%3A//github.com/EOSC-synergy/stateventphases.assess.sqaaas/commit/487e525adfd425da490685acf99646961ae13157\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/3yXjF1CKS7GotileQi3HWQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F3yXjF1CKS7GotileQi3HWQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstateventphases.assess.sqaaas%2Fcommit%2F487e525adfd425da490685acf99646961ae13157&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstateventphases.assess.sqaaas%2Fcommit%2F487e525adfd425da490685acf99646961ae13157"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/rn9H6gGgTO-YI2kpReGBFA?identity__url=https%3A//github.com/EOSC-synergy/stateventphases.assess.sqaaas/commit/487e525adfd425da490685acf99646961ae13157\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/rn9H6gGgTO-YI2kpReGBFA/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2Frn9H6gGgTO-YI2kpReGBFA?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstateventphases.assess.sqaaas%2Fcommit%2F487e525adfd425da490685acf99646961ae13157&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fstateventphases.assess.sqaaas%2Fcommit%2F487e525adfd425da490685acf99646961ae13157"
         }
     }
 }
